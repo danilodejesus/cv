@@ -1,10 +1,28 @@
 import yo from './yo-.png';
 import './App.css';
+import { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom'
 
-function App() {
+function App(props) {
+
+  const [isWeb, setIsWeb] = useState(false);
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const queryParameters = window.location.pathname
+
+  useEffect(() => {
+    const isWeb = queryParameters === '/web' ? true : false
+    setIsWeb(isWeb)
+  }, [0])
+
+  const menu = () => {
+    console.log('red')
+    setIsOpenMenu(!isOpenMenu)
+    window.location = '/web'
+  }
+  
   return (
     <div className="App">
-      <header className="App-header container">
+      <header className={!isWeb ? 'App-header container' : 'App-header container min-height-auto'}>
         <p className='text'>
           HELLO, I AM
           <br/>
@@ -39,7 +57,11 @@ function App() {
           </ul>
         </p>
         <div className='img'>
-          <img className='box-shadow' src={yo} width={300}/>
+          <img className='box-shadow' onClick={menu} src={yo} width={300}/>
+          <div className={isOpenMenu ? 'close' : 'close'}>
+            <p>Menu 1</p>
+            <p>Menu 2</p>
+          </div>
           <ul className='datos box-shadow'>
             <li>
               <p>
@@ -70,41 +92,50 @@ function App() {
         </div>
       </header>
 
-      <div className='experience container'>
+      <div className={isWeb ? 'experience container' : 'close'}>
         <div className='experience-left box-shadow'>
           <h2 className=''>Experience</h2>
           <ul>
             <li>
               <h3>Frontend Developer</h3>
-              <h4>Latam Airlines</h4>
+              <h4>Latam Airlines / 2022 - 2024</h4>
               <p>
-                - Integración con APIS para crear páginas dinámicas basadas en datos de los motores de los aviónes. 
-                - Trabajo en equipo con UX para un diseño limpio y responsivo.
-                - Integración con cuentas de servicio de Google para login, hosting and deployment.
-                - Mantenimiento diario de codigo, depuracion y resolución de conflictos.
+                - Integration with APIS to create dynamic pages based on data from aircraft engines.. <br/>
+                - Teamwork with UX for a clean and responsive design.<br/>
+                - Integration with Google service accounts for login, hosting and deployment.<br/>
+                - Daily code maintenance, debugging and conflict resolution.<br/>
                 Stack: Angular, RxJS, GCP, Html, Css, NextJS, ReactJS, Git
               </p>
             </li>
             <li>
               <h3>Frontend Developer</h3>
-              <h4>Latam Airlines</h4>
+              <h4>Crack The Code / 2020 - 2022</h4>
               <p>
-                - Integración con APIS para crear páginas dinámicas basadas en datos de los motores de los aviónes. 
-                - Trabajo en equipo con UX para un diseño limpio y responsivo.
-                - Integración con cuentas de servicio de Google para login, hosting and deployment.
-                - Mantenimiento diario de codigo, depuracion y resolución de conflictos.
-                Stack: Angular, RxJS, GCP, Html, Css, NextJS, ReactJS, Git
+                - Implement the second version of a payment gateway with currencies for different countries.<br/>
+                - Collaborated with the UX/UI design team to improve ecommerce and BO apps, increasing conversions.<br/>
+                - Daily code maintance, debugging and customer problem solving.<br/>
+                Stack: JavaScript, RxJS, Html, TailwindCss, Vercel, ReactJS, Git
               </p>
             </li>
             <li>
               <h3>Frontend Developer</h3>
-              <h4>Latam Airlines</h4>
+              <h4>USIL / 2018 - 2019</h4>
               <p>
-                - Integración con APIS para crear páginas dinámicas basadas en datos de los motores de los aviónes. 
-                - Trabajo en equipo con UX para un diseño limpio y responsivo.
-                - Integración con cuentas de servicio de Google para login, hosting and deployment.
-                - Mantenimiento diario de codigo, depuracion y resolución de conflictos.
-                Stack: Angular, RxJS, GCP, Html, Css, NextJS, ReactJS, Git
+                - Develop CRUD maintainers to manage course information.<br/>
+                - Increased speed in the implementation of courses pages for students.<br/>
+                - I develop my teamwork skills by working closely with 6 other developers.<br/>
+                -Engineered robust API integrations, streamlining operations and reducing data processing time by 50% <br/>
+                Stack: ReactJS, NextJS, GCP, Html, Css, NextJS, Git
+              </p>
+            </li>
+            <li>
+              <h3>Frontend Developer</h3>
+              <h4>Alicorp / 2017 - 2018</h4>
+              <p>
+                - Full Stack app with Javascript (React, Node.js), SQL.<br/>
+                - Cloud infrastructure: AWS, Azure.<br/>
+                - Spearheaded development of high-traffic e-commerce platform, increasing conversions by 35%.<br/>
+                Stack: JavaScript, Angular, NextJS, GCP, Html, Bootstrap, NextJS, Git
               </p>
             </li>
           </ul>
@@ -115,27 +146,12 @@ function App() {
             <ul>
               <li>
                 <p>
-                  ReactJS
+                  ReactJS - Angular 16
                 </p>
               </li>
               <li>
                 <p>
-                  RxJS
-                </p>
-              </li>
-              <li>
-                <p>
-                  Angular 16
-                </p>
-              </li>
-              <li>
-                <p>
-                  TypeScript
-                </p>
-              </li>
-              <li>
-                <p>
-                  Git - GitHub
+                  JavaScript - TypeScript
                 </p>
               </li>
               <li>
@@ -145,12 +161,37 @@ function App() {
               </li>
               <li>
                 <p>
+                  Unit test
+                </p>
+              </li>
+              <li>
+                <p>
                   Responsive Design
                 </p>
               </li>
               <li>
                 <p>
-                  SCRUM
+                  Tailwind CSS
+                </p>
+              </li>
+              <li>
+                <p>
+                  GCP - Azure
+                </p>
+              </li>
+              <li>
+                <p>
+                  Git - GitHub
+                </p>
+              </li>
+              <li>
+                <p>
+                  CI/CD Jenkins
+                </p>
+              </li>
+              <li>
+                <p>
+                  SCRUM - Jira
                 </p>
               </li>
             </ul>
@@ -171,7 +212,7 @@ function App() {
               </li>
               <li>
                 <p>
-                  Dansk
+                  Danish
                 </p>
               </li>
             </ul>
@@ -180,6 +221,11 @@ function App() {
           <div className='box-shadow'>
             <h2 className=''>Courses</h2>
             <ul>
+              <li>
+                <p>
+                  Curso de Prompt Engineering IA
+                </p>
+              </li>
               <li>
                 <p>
                   Professional JavaScript Course

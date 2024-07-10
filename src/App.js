@@ -1,30 +1,36 @@
 import yo from './yo-.png';
 import './App.css';
 import { useEffect, useState } from 'react';
-import {Link} from 'react-router-dom'
 
 function App(props) {
 
   const [isWeb, setIsWeb] = useState(false);
   const [isOpenMenu, setIsOpenMenu] = useState(false);
+
   const queryParameters = window.location.pathname
 
   useEffect(() => {
     const isWeb = queryParameters === '/web' ? true : false
     setIsWeb(isWeb)
   }, [0])
+  
+  // const menu = () => {
+  //   console.log('props', props)
+  //   setIsOpenMenu(!isOpenMenu)
+  //   setIsWeb(!isWeb)
+  // }
 
-  const menu = () => {
-    console.log('red')
-    setIsOpenMenu(!isOpenMenu)
-    window.location = '/web'
-  }
+  // const resume = () => {
+  //   setIsWeb(false)
+  // }
   
   return (
     <div className="App">
       <header className={!isWeb ? 'App-header container' : 'App-header container min-height-auto'}>
         <p className='text'>
-          HELLO, I AM
+          <u>
+            HELLO, I AM
+          </u>
           <br/>
           <strong>Danilo Viacava</strong>
           <ul className='box-shadow'>
@@ -57,11 +63,7 @@ function App(props) {
           </ul>
         </p>
         <div className='img'>
-          <img className='box-shadow' onClick={menu} src={yo} width={300}/>
-          <div className={isOpenMenu ? 'close' : 'close'}>
-            <p>Menu 1</p>
-            <p>Menu 2</p>
-          </div>
+          <img className='box-shadow'  src={yo} width={300}/>
           <ul className='datos box-shadow'>
             <li>
               <p>
@@ -92,7 +94,7 @@ function App(props) {
         </div>
       </header>
 
-      <div className={isWeb ? 'experience container' : 'close'}>
+      <div className={!isWeb ? 'experience container' : 'close'}>
         <div className='experience-left box-shadow'>
           <h2 className=''>Experience</h2>
           <ul>

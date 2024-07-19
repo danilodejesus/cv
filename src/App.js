@@ -34,16 +34,6 @@ function App(props) {
           <br/>
           <strong>Danilo Viacava</strong>
           <ul className='box-shadow'>
-            <li style={{display: 'none'}}>
-              <p>
-                Frontend Developer
-              </p>
-            </li>
-            <li style={{display: 'none'}}>
-              <p>
-              Drone Pilot
-              </p>
-            </li>
             <li>
               <p style={{display: 'none'}}>
                 New in Denmark

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: url('./aurora-bg.jpg') center center no-repeat;
+  background: url('https://w0.peakpx.com/wallpaper/469/257/HD-wallpaper-aurora-borealis-landscape-landscapes-light-lights-north-northern-pole-sky.jpg') center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -75,6 +75,9 @@
   font-size: 16px;
   display: flex;
   justify-content: space-between;
+  width: 93%;
+  margin: 20px auto;
+
 }
 .App-header li {
   list-style-type: none;
@@ -115,6 +118,10 @@
   .App-header img {
     width: 220px;
   }
+
+  .App-header .img {
+    margin-top: 0px;
+  }
 }
 
 .experience {
@@ -125,6 +132,8 @@
   text-align: left;
   position: relative;
   padding-bottom: 40px;
+  width: 94%;
+  margin: auto;
 }
 .experience ul {
   list-style-type: none;
@@ -175,4 +184,15 @@
 
 .open {
   display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .experience {
+    flex-direction: column;
+  }
+
+  .experience-right {
+    margin-top: 20px;
+    max-width: 100%;
+  }
 }

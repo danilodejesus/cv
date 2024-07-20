@@ -4,11 +4,11 @@ import Experiences from "../components/experience/Experiences";
 function Home () {
 
   return (
-    <>
+    <div className="App">
       <Mains></Mains>
 
       <Experiences></Experiences>
-    </>
+    </div>
   )
 
 }

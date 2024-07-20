@@ -1,0 +1,85 @@
+.Main {
+  min-height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  font-weight: 500;
+  position: relative;
+}
+.min-height-auto {
+  min-height: auto;
+}
+.Main-text {
+  max-width: 580px;
+  margin-bottom: 10px;
+}
+.Main-text u {
+  text-decoration: none;
+  color: inherit;
+}
+.Main-info-img {
+  text-align: center;
+  margin-top: 20px;
+}
+.Main img {
+  width: 220px;
+  position: relative;
+  transition: 1s ease-in-out;
+  border-radius: 50%;
+}
+.Main strong {
+  margin-top: 20px;
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+}
+.Main-intro {
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.Main li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .Main {
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0;
+  }
+  .Main strong {
+    font-size: 40px;
+  }
+  .Main img {
+    width: 220px;
+  }
+
+  .Main .img {
+    margin-top: 0px;
+  }
+}
+
+
+/* Main info */
+
+.Main-info {
+  font-size: 16px;
+}
+.Main-info ul {
+  flex-direction: column;
+  text-align: center;
+}
+
+.Main-info-datos p {
+  margin-bottom: 5px;
+}

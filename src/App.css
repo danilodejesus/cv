@@ -38,3 +38,7 @@
     background-position: -300px 0px;
   }
 }
+
+.d-none {
+  display: none;
+}

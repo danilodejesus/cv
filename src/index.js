@@ -9,12 +9,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Developer from './core/developer/pages/Developer';
-import Home from './core/home/pages/home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
   },
   {
     path: "/web",

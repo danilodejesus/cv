@@ -1,10 +1,10 @@
 import Mains from "../components/main/Mains";
 import Experiences from "../components/experience/Experiences";
 
-function Home () {
+function Home(props) {
 
   return (
-    <div className="App">
+    <div className={props.isHome == null ? 'App' : 'd-none'}>
       <Mains></Mains>
 
       <Experiences></Experiences>

@@ -21,12 +21,27 @@
   margin: auto;
 }
 
+.cook {
+  background-image: url('https://www.celebritycruises.com/blog/content/uploads/2022/08/south-american-food-peruvian-ceviche-plate-hero.jpg');
+  animation: inherit;
+}
+.cook:before {
+  background: #28395e69;
+}
+
 @media screen and (max-width: 767px) {
   .App {
     background: url('https://www.teahub.io/photos/full/47-479522_iphone-fondos-de-pantalla-aurora-boreal.jpg') 0px 0px repeat;
   }
   .App:before {
     background: transparent;
+  }
+
+  .cook {
+    background-image: url('./assets/chef/peruvian-food.jpg');
+  }
+  .cook:before {
+    background: #28395e4a;
   }
 }
 
@@ -41,4 +56,8 @@
 
 .d-none {
   display: none;
+}
+
+h1 {
+  margin-top: 20px;
 }

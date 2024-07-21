@@ -6,14 +6,12 @@ import Home from './core/home/pages/home';
 function App() {
 
   const [search] = useSearchParams();
-  const developer = search.get('web')
+  const developer = search.get('cook')
 
-  console.log(search.get('web'))
-  
   return (
     <div className="Aplication">
       <Home isHome={developer}></Home>
-      <Developer isDeveloper={developer}></Developer>
+      <Developer cook={developer}></Developer>
     </div>
   );
 }

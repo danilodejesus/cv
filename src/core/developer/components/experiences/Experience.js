@@ -8,35 +8,38 @@ function Experience() {
         <h2 className=''>Experience</h2>
         <ul>
           <li>
-            <h3>Chef Assistant at Haute Cuisine Restaurant</h3>
-            <h4>Petunias / 2020 - 2021</h4>
+            <h3>Waiter in Restaurant</h3>
+            <h4>Mama Rosa / 2023 - 2024</h4>
             <p>
-              - Preparation and presentation of dishes following haute cuisine standards.<br/>
-              - Collaboration with the executive chef in the creation of new menus and special dishes.<br/>
-              - Supervision of the cleaning and organization of the kitchen, ensuring compliance with health regulations.<br/>
+              - I provided a comprehensive service to clients, from welcome to payment, ensuring a smooth and pleasant experience.<br/>
+              - I took and transmitted orders accurately to kitchen and bar staff, minimizing errors and ensuring customer satisfaction.<br/>
+              - I kept the dining room clean and organized, prepared tables for reservations, and managed seating arrangements to optimize customer flow.<br/>
+              - Customers wrote special mentions for my good service and gave their 5-star rating for service, food and atmosphere for the Google Maps.
             </p>
           </li>
           <li>
-            <h3>Chef at Theme Restaurant</h3>
-            <h4>Bembos / 2019 - 2020</h4>
-            <p>
-              - Preparation of dishes that fit the restaurant's theme, ensuring a unique culinary experience for customers.<br/>
-              - Kitchen management during peak hours, ensuring fast and efficient service.<br/>
-              - Inventory management and supply orders.<br/>
-            </p>
-          </li>
-          <li>
-            <h3>Waiter at Fine Cuisine Restaurant</h3>
-            <h4>San Carlos / 2018 - 2019</h4>
+            <h3>Waiter in Restaurant</h3>
+            <h4>El Salto del Fraile / 2021 - 2022</h4>
             <p>
               - Taking orders and advising on the menu, including wine pairing recommendations.<br/>
               - Table service ensuring an exceptional culinary experience.<br/>
               - Coordination with the kitchen team to guarantee the precision and quality of the dishes served.<br/>
+              - Addressed and resolved customer complaints efficiently and professionally, maintaining a high level of satisfaction. <br/>
+              - Provide exceptional service to customers in a high-end restaurant, ensuring a memorable dining experience.
+            </p>
+          </li>
+          <li>
+            <h3>Waiter in Restaurant</h3>
+            <h4>Roza Náutica / 2020 - 2021</h4>
+            <p>
+              - One business client mentioned how my proactivity in serving his table, such as refilling drinks and being attentive to his needs, made his business lunch a seamless success.<br/>
+              - Several families noted how my friendly manner and ability to interact with the children made their experience relaxed and enjoyable.<br/>
+              - Maintain a friendly and professional attitude even during high-pressure times.<br/>
             </p>
           </li>
           <li>
             <h3>Waiter in Hotel</h3>
-            <h4>Hotel Boulevard / 2017 - 2018</h4>
+            <h4>Hotel Boulevard / 2018 - 2020</h4>
             <p>
               - Service in the hotel restaurant and room service.<br/>
               - Preparation and assembly of special events and banquets.<br/>
@@ -51,27 +54,7 @@ function Experience() {
           <ul>
             <li>
               <p>
-                Cooking techniques
-              </p>
-            </li>
-            <li>
-              <p>
-                Food safety and hygienic food handling
-              </p>
-            </li>
-            <li>
-              <p>
-                Inventory control
-              </p>
-            </li>
-            <li>
-              <p>
-                Order and supplier management
-              </p>
-            </li>
-            <li>
-              <p>
-                Menu planning
+                Efficiency in order taking and food delivery
               </p>
             </li>
             <li>
@@ -81,22 +64,22 @@ function Experience() {
             </li>
             <li>
               <p>
-                Adaptation to menus and special customer requests
+                Attention to detail
               </p>
             </li>
             <li>
               <p>
-                Knowledge of food preservation techniques
+                Efficient communication
               </p>
             </li>
             <li>
               <p>
-                Efficiency in order taking and food delivery
+                Speed ​and Efficiency
               </p>
             </li>
             <li>
               <p>
-                Collaboration with kitchen staff and other waiters
+                Adaptability
               </p>
             </li>
           </ul>
@@ -104,7 +87,6 @@ function Experience() {
       </div>
     </div> 
   )
-
 }
 
 export default Experience

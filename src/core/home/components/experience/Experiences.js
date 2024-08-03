@@ -134,7 +134,7 @@ function Experiences() {
           <ul>
             <li>
               <p>
-                Curso de Prompt Engineering IA
+                Course de Prompt Engineering IA
               </p>
             </li>
             <li>

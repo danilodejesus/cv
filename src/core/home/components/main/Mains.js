@@ -14,7 +14,7 @@ function Mains() {
           <strong>Danilo Viacava</strong>
         </p>
         <p className='Main-intro box-shadow'>
-          I am looking for challenging opportunities in Copenhagen that allow me to apply my skills and experience in web development or similar activities to contribute to the success of a dynamic company.
+          I am looking for challenging opportunities in Copenhagen that allow me to apply my skills and experience in web development to contribute to the success of a dynamic company.
           <br/><br/>
           I have permission to work in Denmark and also have communication and teamwork skills, developed through collaborative projects.
           <br/><br/>

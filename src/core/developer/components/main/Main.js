@@ -14,7 +14,7 @@ function Main() {
           <strong>Danilo Viacava 🇵🇪</strong>
         </h1>
         <p className='Main-intro box-shadow'>
-          I am looking for challenging opportunities in Copenhagen that allow me to apply my skills and experience in gastronomy or similar activities to contribute to the success of a dynamic company.
+          I am looking for challenging opportunities in Copenhagen that allow me to apply my skills and experience in customer service to contribute to the success of a dynamic company.
           <br/><br/>
           I have permission to work in Denmark and also have communication and teamwork skills, focused on offering exceptional and sustainable service
           <br/><br/>

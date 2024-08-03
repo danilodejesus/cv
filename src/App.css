@@ -22,8 +22,9 @@
 }
 
 .cook {
-  background-image: url('https://www.celebritycruises.com/blog/content/uploads/2022/08/south-american-food-peruvian-ceviche-plate-hero.jpg');
+  background-image: url('https://t4.ftcdn.net/jpg/01/41/83/61/360_F_141836163_4LF0MBIsJAjq52Z7wvBGjBPveFkc5Akz.jpg');
   animation: inherit;
+  background-size: cover;
 }
 .cook:before {
   background: #28395e69;

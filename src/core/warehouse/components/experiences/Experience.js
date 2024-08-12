@@ -30,7 +30,7 @@ function Experience() {
           </li>
           <li>
             <h3>Warehouse Assistant</h3>
-            <h4>Roza Náutica / 2020 - 2021</h4>
+            <h4>PeruMotor / 2020 - 2021</h4>
             <p>
               - Support in warehouse organization, ensuring adequate storage of spare parts according to technical specifications.<br/>
               - Use of drones to inspect hard-to-reach areas and carry out more efficient inventories.<br/>

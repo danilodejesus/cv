@@ -30,6 +30,14 @@
   background: #28395e69;
 }
 
+.warehouse {
+  background-image: url('https://png.pngtree.com/background/20230626/original/pngtree-futuristic-warehouse-concept-with-automated-drones-3d-render-picture-image_4056366.jpg');
+  background-size: cover;
+}
+.warehouse:before {
+  background: #28395e69 !important;
+}
+
 @media screen and (max-width: 767px) {
   .App {
     background: url('https://www.teahub.io/photos/full/47-479522_iphone-fondos-de-pantalla-aurora-boreal.jpg') 0px 0px repeat;
@@ -43,6 +51,11 @@
   }
   .cook:before {
     background: #28395e4a;
+  }
+
+  .warehouse {
+    background-image: url('https://png.pngtree.com/background/20230626/original/pngtree-futuristic-warehouse-concept-with-automated-drones-3d-render-picture-image_4056366.jpg');
+    background-size: inherit;
   }
 }
 

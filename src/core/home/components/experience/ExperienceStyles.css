@@ -46,10 +46,15 @@
   overflow: hidden;
   background-color: #19173585;
   box-shadow: -2px 0px 2px 3px #2d285e54;
-  padding: 10px !important;
+  padding: 20px 10px !important;
   border-radius: 12px;
   box-sizing: border-box;
-  box-shadow: -2px 0px 2px 3px #2d285e54;
+}
+
+.p-intro {
+  padding: 20px 10px !important;
+  margin: 0px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {

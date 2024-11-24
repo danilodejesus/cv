@@ -42,16 +42,6 @@
   margin-bottom: 0;
 }
 
-.box-shadow {
-  overflow: hidden;
-  background-color: #19173585;
-  box-shadow: -2px 0px 2px 3px #2d285e54;
-  padding: 10px !important;
-  border-radius: 12px;
-  box-sizing: border-box;
-  box-shadow: -2px 0px 2px 3px #2d285e54;
-}
-
 @media screen and (max-width: 767px) {
   .Experience {
     flex-direction: column;

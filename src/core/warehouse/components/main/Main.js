@@ -1,5 +1,5 @@
 import yo from '../../../../assets/home/yo-.png';
-import './MainStyles.css'
+// import './MainStyles.css'
 
 function Main() {
 

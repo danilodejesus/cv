@@ -10,19 +10,11 @@ function Mains() {
           HELLO, I AM
         </u>
         <br/>
-        <p>
+        <h1>
           <strong>Danilo Viacava</strong>
-        </p>
+        </h1>
         <p className='Main-intro box-shadow'>
-          I am looking for challenging opportunities in Copenhagen that allow me to apply my skills and experience in web development to contribute to the success of a dynamic company.
-          <br/><br/>
-          I have permission to work in Denmark and also have communication and teamwork skills, developed through collaborative projects.
-          <br/><br/>
-          I am motivated by the opportunity to grow professionally in an innovative and multicultural environment like Denmark.
-          <br/><br/>
-          Outside of work, I enjoy exercising and being with my family.
-          <br/><br/>
-          I am willing to relocate to Copenhagen and have the flexibility to start a new position as soon as necessary.
+          Senior Frontend Developer with 6+ years of experience, specialized in ReactJS, Angular (v4-14), RxJS, Angular Material, TypeScript, CSS/Sass and responsive design.<br/><br/> Expert in SOLID principles, Clean Code, Microfrontends, monorepos and patterns such as Atomic Design and BEM. <br/><br/> Extensive experience in frontend development, testing (Jasmine, Angular Unit Testing) and teamwork under SCRUM. <br/><br/>With knowledge in software architecture and complementary experience in backend with Python and Spring Boot.
         </p>
       </div>
 

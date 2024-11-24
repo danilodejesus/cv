@@ -31,6 +31,7 @@
   transition: 1s ease-in-out;
   border-radius: 50%;
   margin-bottom: 20px;
+  padding: 10px !important;
 }
 .Main strong {
   margin-top: 20px;
@@ -43,10 +44,7 @@
   font-size: 16px;
   display: flex;
   justify-content: space-between;
-  width: 94%;
-  margin: 20px auto;
 }
-
 .Main li {
   list-style-type: none;
 }
@@ -57,6 +55,7 @@
     text-align: center;
     font-size: 25px;
     padding: 30px 0;
+    width: 94%;
   }
   .Main strong {
     font-size: 40px;

@@ -4,7 +4,7 @@ import Experiences from "../components/experience/Experiences";
 function Home(props) {
 
   return (
-    <div className={props.isHome == null ? 'App' : 'd-none'}>
+    <div className='App'>
       <Mains></Mains>
 
       <Experiences></Experiences>
